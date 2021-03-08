@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2 style="text-align: center">My Library</h2>
+        <div id="books">
+            <table id="book_table" class="table">
+                
+            </table>
+        </div>
+        <br>
+        <div class="add"><button id="add">Add Book</button></div>
+        <div id="addBookForm" class="modal">
+            <form action="" name="addBookForm" id="addBook" class="form">
+                <label for="title">Book Title:</label>
+                <input type="text" id="title" name="title">
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author">
+                <label for="numPages">Number of Pages:</label>
+                <input type="number" id="numPages" name="numPages">
+                <label for="read">Read?:</label>
+                <input type="checkbox" id="read" name="read">
+                <input type="submit" value="Submit" id="add">
+            </form>
+        </div>
+        <script src = "bookObject.js"></script>
+    </body>
+    <footer>
+        
+    </footer>
+</html>
